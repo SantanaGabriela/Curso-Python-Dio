@@ -1,0 +1,16 @@
+class Cachorro:
+    def __init__(self, nome, cor, acordado = True):
+        print("inicializando a classe...")
+        self.nome  = nome
+        self.cor = cor
+        self.acordado = acordado
+
+    def falar(self ):
+        print("auaua")
+
+    
+c = Cachorro("chappie", "amarelo")
+c.falar()
+
+
+
